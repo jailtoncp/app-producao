@@ -1892,26 +1892,6 @@ Por este excelente desempenho, recomenda-se a concessão de bônus de produção
       atualizarNotificacoes();
       carregarConfigNotificacao();
 
-      if (false && notificacoes.length === 0) {
-        notificacoes.push({
-          titulo: "✅ João Silva - Sugestão de Bônus (TESTE)",
-          descricao: "Operação: Montagem | Produção: 1250 | Meta: 1000",
-          justificativa: `João Silva foi excepcional neste período (até o dia 15) na operação "Montagem"!
-
-Desempenho:
-• Total produzido: 1250 unidades
-• Meta estabelecida: 1000 unidades
-• Superou em: 250 unidades (25% acima da meta)
-
-Por este excelente desempenho, recomenda-se a concessão de bônus de produção.
-
-[ESTA É UMA NOTIFICAÇÃO DE TESTE PARA VISUALIZAÇÃO DO SISTEMA]`,
-          timestamp: new Date().toLocaleString("pt-BR")
-        });
-        salvarNotificacoes();
-        atualizarNotificacoes();
-      }
-
     });
 
     // ============================================
